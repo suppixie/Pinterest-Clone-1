@@ -1,0 +1,33 @@
+header {
+    display:flex;
+    width:100vw;
+    align-items:center;
+    padding:15px 100px;
+    }
+    .logo {
+    display:flex;
+    }
+    ul {
+    display:flex}
+    ul li {
+    list-style:none;
+    width:30px;}
+    ul li a {
+    color:white;
+    text-decoration:none;
+    padding:5px 5px;
+    background-color:gray;
+    border:2px white solid;
+    }
+    .feed-buttons {
+    align-items:center;
+    }
+    .row {
+    display:flex;}
+    .column {
+    width:300px;
+    padding:0px 5px;}
+    .column img {
+    width:100%;
+    border-radius:20px;}
+    
