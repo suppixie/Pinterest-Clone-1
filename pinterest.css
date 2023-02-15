@@ -7,9 +7,11 @@ header {
     }
 .logo {
     display:flex;
+    justify-content:space-between;
     }
 .logo img {
-    height:20px;}
+    height:40px;
+    }
 .search input {
     border-radius:20px;
     background-color:gray;
@@ -28,7 +30,24 @@ ul li a {
     background-color:gray;
     border:2px white solid;
     }
+.fas[
+    display:flex;
+    justify-content:space-between;}
 
+.fa-bell, fa-comment-dots{
+    height:20px;
+    background-color:gray;}
+.profile {
+    border-radius:50%;
+    height:20px;}
+.dropdown-arrow {
+    display:block;
+    padding:5px;
+    }
+.dropdown-menu{
+    display:none;}
+.dropdown-arrow::hover + .dropdown-menu {
+    display:block}
 .feed-buttons {
     align-items:center;
     }
