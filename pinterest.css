@@ -3,28 +3,39 @@ header {
     width:100vw;
     align-items:center;
     padding:15px 100px;
+    height:40px;
     }
-    .logo {
+.logo {
     display:flex;
     }
-    ul {
+.logo img {
+    height:20px;}
+.search input {
+    border-radius:20px;
+    background-color:gray;
+    padding:5px;}
+ul {
     display:flex}
-    ul li {
+
+ul li {
     list-style:none;
     width:30px;}
-    ul li a {
+
+ul li a {
     color:white;
     text-decoration:none;
     padding:5px 5px;
     background-color:gray;
     border:2px white solid;
     }
-    .feed-buttons {
+
+.feed-buttons {
     align-items:center;
     }
-    .row {
+
+.row {
     display:flex;}
-    .column {
+.column {
     width:300px;
     padding:0px 5px;}
     .column img {
